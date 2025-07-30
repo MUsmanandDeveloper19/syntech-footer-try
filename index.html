@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+      <link rel="stylesheet" href="style.css">
+     <!-- CSS //-->
+     <!-- CDN -->
+      <!-- Swiper-slider -->
+       <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+      <!-- Swiper-slider -->
+      <!-- Fade-aos-library  -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Fade-aos-library //-->
+       <!-- Bootstrap-5-css-cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <!-- Bootstrap-5-css-cdn -->
+     <!-- CDN //-->
+    <title>Synctech Home</title>
+</head>
+<body>
+<!-- banner-html-code -->
+   <div class="slider-container" data-aos="fade-down"
+     data-aos-duration="800">
+    <button class="slider-btn" onclick="prevSlide()">&lt;</button>
+    <div id="sliderText" class="slider-text">
+      Sign Up to Get 15% Off Your First Purchase. Code: UNLEASH15
+    </div>
+    <button class="slider-btn" onclick="nextSlide()">&gt;</button>
+  </div>
+<!-- banner-html-code -->
+
+
+<section>
+  <!-- Navbar   -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="img-fluid" src="logo-synctech.avif" alt="Logo" style="width: 120px;" data-aos="fade-right"
+     data-aos-duration="2000">
+    </a>
+    
+    <!-- Burger Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Menu -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="main-menu container">
+       <div class="container">
+        <div class="row d-flex">
+          <div class="col-2"></div>
+          <div class="col-8">
+        <ul class="navbar-nav w-100 mb-2 mb-lg-0" id="nav-ul">
+          <li class="nav-item" data-aos="fade-left"
+     data-aos-duration="800">
+            <button class="nav-link btn text-white" onclick="toggleDropdown('home')">Keyboards</button>
+          </li>
+          <li class="nav-item" data-aos="fade-up"
+     data-aos-duration="800">
+            <button class="nav-link btn text-white" onclick="toggleDropdown('services')">For Gaming</button>
+          </li>
+          <li class="nav-item" data-aos="fade-down"
+     data-aos-duration="800">
+            <button class="nav-link btn text-white" onclick="toggleDropdown('about')">Made For Meta</button>
+          </li>
+          <li class="nav-item" data-aos="fade-right"
+     data-aos-duration="800">
+            <button class="nav-link btn text-white d-flex" onclick="toggleDropdown('contact')">About Us 
+             <!-- <div class="login">
+              <b class="text-white">hello write</b>
+             </div> -->
+            </button>
+          </li>
+        </ul>
+        
+          </div>
+          <div class="col-2"></div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</nav>
+     
+    </div>
+  </div>
+</nav>
+<!-- Navbar //-->
+<!-- pages-inner-content-on-home-pg -->
+<!-- Dropdown Content Areas (Empty for now) -->
+<div id="home" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-4 text-center">  
+       <a href="#" class="text-white">
+        <b>Business Partner</b>
+       </a>
+       <br><br>
+       <a href="#" class="text-white">
+        <h5>Chronos 68</h5>
+       </a>
+      </div>
+      <!-- <div class="col-4"></div> -->
+      <div class="col-4 text-center">
+      <a href="#" class="text-white">
+        <b>Supports</b>
+      </a>
+      <br><br>
+      <a href="#" class="text-white">
+        <h5>Extra Keycaps</h5>
+      </a>
+      </div>
+    </div>
+  </div>
+  <!-- You can add content here later -->
+</div>
+<!-- navbar-for-gaming -->
+<div id="services" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+          <br>
+           <!-- Protecter -->
+           <a href="#">
+            <p class="text-white">Protecter</p>
+           </a>
+           <!-- Protecter -->
+
+           <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+           <!-- Docking Station -->
+
+           <!-- Adapters -->
+           <a href="#">
+            <p class="text-white">Adapters</p>
+           </a>
+           <!-- Adapters -->
+
+           <!-- Hard Carrying Case -->
+            <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <!-- Hard Carrying Case -->
+
+           <!-- Silicone Protective Case -->
+             <a href="#">
+            <p class="text-white">Silicone Protective Case</p>
+           </a>
+           <!-- Silicone Protective Case -->
+        </a>
+        <br><br>
+      </div>
+       
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- ROG Ally/X -->
+         <a href="#">
+          <h5 class="text-white">Steam Deck LCD/OLED</h5>
+         </a>
+         <br>
+        <!-- ROG Ally/X -->
+
+        <!-- Docking Station -->
+           <a href="#">
+            <p class="text-white">Docking Station</p>
+           </a>
+        <!-- Docking Station //-->
+
+        <!-- Hard Carrying Case -->
+           <a href="#">
+            <p class="text-white">Hard Carrying Case</p>
+           </a>
+           <br><br>
+        <!-- Hard Carrying Case -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Nintendo Switch -->
+           <a href="#">
+            <h5 class="text-white">Nintedo Switch</h5>
+           </a>
+           <br>
+        <!-- Nintendo Switch -->
+
+        <!-- Switch Case -->
+           <a href="#">
+            <p class="text-white">Switch Case</p>
+           </a>
+        <!-- Switch Case //-->
+
+        <!-- Switch Protector -->
+            <a href="#">
+            <p class="text-white">Switch Protecter</p>
+           </a>
+           <br><br>
+        <!-- Switch Protector -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- AR/VR -->
+          <a href="#">
+            <h5 class="text-white">Switch Protecter</h5>
+           </a>
+           <br>
+        <!-- AR/VR -->
+
+        <!-- Head Straps -->
+           <a href="#">
+            <p class="text-white">Head Straps</p>
+           </a>
+        <!-- Head Straps -->
+
+        <!-- Controller Grips Cover -->
+           <a href="#">
+            <p class="text-white">Controller Grip Cover</p>
+           </a>
+        <!-- Controller Grips Cover -->
+
+        <!-- Smart Storage Solutions -->
+         <a href="#">
+            <p class="text-white">Smart Storage Solutions</p>
+          </a>
+        <!-- Smart Storage Solutions -->
+
+        <!-- Link Cables -->
+          <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Apple Vision Pro -->
+          <a href="#">
+            <p class="text-white">Apple Vision Pro</p>
+          </a>
+        <!-- Apple Vision Pro -->
+      </div>
+
+      <div class="col-2">
+        <!-- IT Accessory -->
+         <a href="#">
+          <h5 class="text-white">IT Accessory</h5>
+         </a>
+         <br>
+         <!-- IT Accessory -->
+
+        <!-- Adapters -->
+          <a href="#">
+            <p class="text-white">Adapters</p>
+          </a>
+        <!-- Adapters -->
+
+        <!-- Iphone Charger -->
+         <a href="#">
+            <p class="text-white">Iphone Charger</p>
+          </a>
+        <!-- Iphone Charger -->
+
+        <!-- Hubs -->
+          <a href="#">
+            <p class="text-white">Hubs</p>
+          </a>
+        <!-- Hubs -->
+
+        <!-- HDMI Cables -->
+         <a href="#">
+            <p class="text-white">HDMI Cables</p>
+          </a>
+        <!-- HDMI Cables -->
+
+        <!-- Link Cables -->
+         <a href="#">
+            <p class="text-white">Link Cables</p>
+          </a>
+        <!-- Link Cables -->
+
+        <!-- Bluetooth Receiver -->
+         <a href="#">
+            <p class="text-white">Bluetooth Receiver</p>
+          </a>
+        <!-- Bluetooth Receiver -->
+
+        <!-- Phone Holder -->
+          <a href="#">
+            <p class="text-white">Phone Holder</p>
+          </a>
+        <!-- Phone Holder -->
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- navbar-for-gaming -->
+
+<!-- Navbar-Made-for-meta -->
+<div id="about" class="dropdown-section container">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+        <!-- Policy -->
+      <a href="#">
+        <h5 class="text-white">Policy</h5>
+      </a>
+      <br>
+     <!-- Policy -->
+
+     <!-- Privacy Policy -->
+      <a href="#">
+        <p class="text-white">Privacy Policy</p>
+      </a>
+     <!-- Privacy Policy -->
+
+     <!-- Refund Policy -->
+      <a href="#">
+        <p class="text-white">Refund Policy</p>
+      </a>
+     <!-- Refund Policy -->
+
+     <!-- Shipping Policy -->
+      <a href="#">
+        <p class="text-white">Shipping Policy</p>
+      </a>
+     <!-- Shipping Policy -->
+
+     <!-- Term of Service -->
+      <a href="#">
+        <p class="text-white">Term of Service</p>
+      </a>
+     <!-- Term of Service -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+
+      <!-- Downloads -->
+        <a href="#">
+          <h5 class="text-white">Downloads</h5>
+        </a>
+      <!-- Downloads -->
+
+      <!-- Installation Package -->
+       <a href="#">
+        <p class="text-white">Installation Package</p>
+      </a>
+      <!-- Installation Package -->
+
+      <!-- Drive -->
+       <a href="#">
+        <p class="text-white">Drive</p>
+      </a>
+      <br><br>
+      <!-- Drive -->
+
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Contact Us -->
+          <a href="#">
+            <h5 class="text-white">Contact Us</h5>
+          </a>
+        <!-- Contact Us -->
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- Tutorials -->
+          <a href="#">
+            <h5 class="text-white">Tutorials</h5>
+          </a>
+        <!-- Tutorials -->
+        <br><br>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <!-- FAQS -->
+         <a href="#">
+            <h5 class="text-white">FAQ</h5>
+          </a>
+        <!-- FAQS -->
+      </div>
+     
+
+    </div>
+  </div>
+</div>
+<!-- Navbar-Made-for-meta //-->
+
+<div id="contact" class="dropdown-section container">
+  <!-- You can add content here later -->
+</div>
+<!-- pages-inner-content-on-home-pg //-->
+</section>
+
+
+<section>
+<!-- CONTAINER -->
+
+ <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="container-img-2.jpg" alt="" class="img-fluid" data-aos="fade-up"
+     data-aos-duration="1000">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="container-img-1.webp" alt="" class="img-fluid" data-aos="fade-down"
+     data-aos-duration="1000">
+      </div>
+
+       <div class="swiper-slide">
+        <img src="container-img-3.png" alt="" class="img-fluid" data-aos="fade-down"
+     data-aos-duration="1000">
+      </div>
+   
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+
+
+<!-- CONTAINER //-->
+</section>
+
+<section>
+ <!-- Whats New -->
+  <div class="what-new-main-div">
+    <div class="row d-flex g-0">
+      <div class="col-lg-3 col-md-8 col-sm-12">
+        <div class="whats-new" data-aos="fade-down"
+     data-aos-duration="700">
+          <h5 class="text-white text-center pt-1">What's New</h5>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12 col-sm-12">
+        <!-- Whats-new-banner-html-code -->
+          <div class="whats-new-slider-container" data-aos="fade-up"
+     data-aos-duration="700">
+    <button class="whats-new-slider-btn" onclick="prevSlide()">&lt;</button>
+    <div id="whats-new-sliderText" class="whats-new-slider-text">
+      Sign Up to Get 15% Off Your First Purchase. Code: UNLEASH15
+    </div>
+    <button class="whats-new-slider-btn" onclick="nextSlide()">&gt;</button>
+  </div>
+        <!-- Whats-new-banner-html-code //-->
+      </div>
+    </div>
+  </div>
+ <!-- Whats New -->
+</section>
+
+<section>
+  <!-- Synctech-video-section -->
+  <div class="Synctech-video-section-div text-center" data-aos="fade-left"
+     data-aos-duration="1000">
+    <video class="w-100" src="synctech-home-video.mp4" muted loop autoplay></video>
+    <a href="#">
+      <button id="synctech-home-video-btn" class="btn btn-outline-info" data-aos="fade-down"
+     data-aos-duration="1000">Learn More</button>
+    </a>
+  </div>
+  <!-- Synctech-video-section -->
+</section>
+
+<section>
+  <!-- Shop by Category -->
+   <div class="container">
+    <h1 id="fade" class="text-center mt-3" data-aos="fade-up"
+     data-aos-duration="1000">Shop by Category</h1>
+   <div class="row d-flex justify-content-center mt-3">
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+         <!-- Steam-Deck -->
+           <div id="Category-img-div" data-aos="fade-left"
+            data-aos-duration="1000">
+            <img src="steam-deck.webp" alt="" id="Shop-by-Category-img" data-aos="fade-right"
+             data-aos-duration="1000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+            data-aos-duration="1000">Steam Deck</p>
+         <!-- Steam-Deck -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- AR/VR -->
+          <div id="Category-img-div" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="ar-vr.webp" alt="" id="Shop-by-Category-img" data-aos="fade-down"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+     data-aos-duration="3000">AR/VR</p>
+        <!-- AR/VR -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- ROG Ally -->
+         <div id="Category-img-div" data-aos="fade-down"
+            data-aos-duration="3000">
+            <img src="rog-ally.webp" alt="" id="Shop-by-Category-img" data-aos="fade-up"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center  mt-3" data-aos="fade-down"
+            data-aos-duration="1000">ROG ALLY</p>
+        <!-- ROG Ally -->
+  
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- More In Gaming -->
+          <div id="Category-img-div" data-aos="fade-up"
+           data-aos-duration="3000">
+            <img src="more-in-gaming.webp" alt="" id="Shop-by-Category-img" data-aos="fade-down"
+            data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+           data-aos-duration="1000">MORE IN GAMING</p>
+        <!-- More In Gaming -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- Creator's Gear -->
+          <div id="Category-img-div" data-aos="fade-down"
+             data-aos-duration="3000">
+            <img src="creators-gear.webp" alt="" id="Shop-by-Category-img" data-aos="fade-up"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-down"
+           data-aos-duration="1000">CREATORS GEAR</p>
+        <!-- Creator's Gear -->
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+      <a href="#">
+        <!-- IT Accessories -->
+          <div id="Category-img-div" data-aos="fade-right"
+            data-aos-duration="3000">
+            <img src="it--accessories.webp" alt="" id="Shop-by-Category-img" data-aos="fade-left"
+             data-aos-duration="3000">
+           </div>
+           </a>
+           <p class="text-center mt-3" data-aos="fade-up"
+            data-aos-duration="1000">IT ACCESSORIES</p>
+        <!-- IT Accessories -->
+    </div>
+   </div>
+   </div>
+  <!-- Shop by Category -->
+</section>
+
+
+<section>
+  <!-- NEW_ARRIVALS -->
+  <div class="container mt-5">
+    <h1 id="fade" class="text-center mt-5">New Arrivals</h1>
+
+
+ <div class="swiper-container-wrapper">
+    <div class="swiper myCustomSlider">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+       
+           <div class="swiper-slide">
+           <a href="#">
+            <img data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/8_4e516ca9-a973-4eca-8dcb-9ec2e97a85ee.jpg?v=1752571251&width=400" alt="Slide 1" style="width: 100px; height: 100px;">
+           </a>
+            <div class="slide-content">
+            <h6>Chronos 68 Rapid <br> Trigger Magnetic </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$179.99</p>
+          </div>
+        </div>
+
+        <!-- Repeat more slides -->
+        <div class="swiper-slide">
+         <a href="#">
+          <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/HeadStrap.png?v=1746521148&width=400" alt="Slide 2" style="width: 100px; height: 100px;">
+         </a>
+          <div class="slide-content">
+            <h6>head Strap For <br> Quest 3/3S</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$49.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+         <a href="#">
+          <img data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/Carrying_Case_Compatible_with_Nintendo_Switch2_Shadow_Breath.png?v=1751623912&width=400" alt="Slide 3" style="width: 100px; height: 100px;">
+         </a>
+          <div class="slide-content">
+            <h6>Carrying Case Compatible</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$17.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/473fddb29df4ffc53d705afce277306_960f1537-31f9-4baa-86d6-6036d9b96afc.png?v=1745197765&width=400" alt="Slide 4" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>XR Headset br Backpack </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$99.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/902bd804570929f6d9d0236e3f97132.png?v=1746520165&width=400" alt="Slide 5" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>Head Strap With <br> Battery Pack</h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$59.99</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/3_1-removebg-preview.png?v=1731643565&width=400" alt="Slide 6" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>VR Wood Desk <br> Stand </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$39.99</p>
+          </div>
+        </div>
+
+           <div class="swiper-slide">
+          <a href="#">
+            <img data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="mt-3" src="https://syntechhome.com/cdn/shop/files/main_picture_3_-png.png?v=1737449484&width=400" alt="Slide 7" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>XR Power Bank <br> Belt </h6>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">$39.99</p>
+          </div>
+        </div>
+
+           <div class="swiper-slide">
+          <a href="#">
+            <img class="mt-3" src="https://syntechhome.com/cdn/shop/files/5_c1584621-ff99-45b4-b51d-bbe6b812b001-removebg-preview.png?v=1731643697&width=400" alt="Slide 8" style="width: 100px; height: 100px;">
+          </a>
+          <div class="slide-content">
+            <h6>Product Name 6</h6>
+            <p style="font-size: 12px; margin: 0;">Something</p>
+            <p class="text-danger" style="font-size: 12px; margin: 0;">Another thing</p>
+          </div>
+        </div>
+
+        <!-- You can add more slides as needed -->
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Swiper Init -->
+  <script>
+    const swiper = new Swiper('.myCustomSlider', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      grabCursor: true,
+      breakpoints: {
+        0: { slidesPerView: 1.5 },
+        400: { slidesPerView: 2 },
+        600: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        992: { slidesPerView: 5 },
+        1200: { slidesPerView: 6 },
+      },
+    });
+  </script>
+
+<!-- NEW_ARRIVALS //-->
+</section>
+
+<section>
+<!-- PARTNER-WITH-SYNTECH -->
+<div class="container mt-5">
+
+  <h1 class="text-center mt-5" id="fade" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Partner With Syntech</h1>
+  <p class="text-center" data-aos="fade-down" data-aos-anchor-placement="center-bottom">We are Expanding and Looking for Distributors Globally</p>
+
+  <div class="row d-flex shadow p-5 bg-light mt-5">
+    <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+   <div class="container">
+  <div class="d-flex mt-5 justify-content-between align-items-center flex-wrap">
+    <!-- certified-organization -->
+    <img data-aos="fade-left"
+     data-aos-duration="1000" src="certified-organiztation.avif" alt="" style="width: 70px;">
+
+    <!-- amazon-seller -->
+    <img data-aos="fade-up"
+     data-aos-duration="2000" src="amazon-seller.webp" alt="" style="width: 70px;">
+
+    <!-- R&D-Oriented -->
+    <img data-aos="fade-right"
+     data-aos-duration="3000" src="R & D Oriented.avif" alt="" style="width: 70px;">
+  </div>
+</div>
+
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 mt-2 text-center">
+      <h2 class="text-center" style="color: navy; font-family: Arial, Helvetica, sans-serif;">
+        <b>Get Started Today</b>
+      </h2>
+      <h5 class="mt-4">For Distribution Enquiries</h5>
+      <a href="#">
+        <p>armihuang@syntechhome.com</p>
+      </a>
+      <!-- leran-more-btn -->
+        <a href="#">
+          <button class="btn btn-primary" style="border-radius: 22px;">Learn More</button>
+        </a>
+      <!-- leran-more-btn -->
+    </div>
+  </div>
+
+</div>
+<!-- PARTNER-WITH-SYNTECH -->
+</section>
+
+
+<section>
+  <!-- Media-reviews -->
+   <div class="container mt-5">
+    <h1 class="text-center mt-5" id="fade">Media Reviews</h1>
+
+    <!-- media-reviews -->
+     <div class="row d-flex">
+      <div class="col-3">
+        <h1></h1>
+      </div>
+      <div class="col-6">
+      <div class="media-reviews mt-5">
+       <div class="review-line active">"The Syntech Steam Deck Dock is a sturdy budget-friendly solution for desktop gaming."</div>
+       <div class="review-line">"In terms of its HDMI connection, the Syntech dock works like a dream."</div>
+       <div class="review-line">"If you're going to get someone a handheld gaming PC— or know someone who already has one — this is the accessory we recommend gifting them."</div>
+       <div class="review-line">"The 2023 Red Dot Design Award-winning accessory may add up to six hours of extra game-play while providing potentially improved balance and control in headset-based gaming."</div>
+       <div class="review-line">"If you plan on using your Quest 3 with a gaming PC to access Steam VR, this seems to be a solid option that's on sale frequently.</div>
+      </div>
+
+      </div>
+      <div class="col-3"></div>
+     </div>
+    <!-- media-reviews -->
+
+    <!-- media-reviews-js -->
+      <script>
+  const reviews = document.querySelectorAll(".media-reviews .review-line");
+  let current = 0;
+
+  setInterval(() => {
+    reviews[current].classList.remove("active");
+    current = (current + 1) % reviews.length;
+    reviews[current].classList.add("active");
+  }, 3000);
+</script>
+
+  <!-- media-reviews-imgs -->
+  <div class="container">
+    <section>
+      <div class="row d-flex mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="popsci.svg" alt="" style="width: 70px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="thegamer.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="gamesrads.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <a href="#">
+          <img class="mt-5" src="pochet.avif" alt="" style="width: 100px;">
+        </a>
+      </div>
+    </div>
+    </section>
+    <div class="text-center mt-3">
+      <a href="#">
+        <img class="mt-3" src="nootbook.avif" alt="" style="width: 100px;">
+      </a>
+    </div>
+  </div>
+  <!-- media-reviews-imgs -->
+<!-- media-reviews-js -->
+   </div>
+  <!-- Media-reviews -->
+</section>
+
+
+<section>
+  <!-- STAY-UPDATED -->
+   <div class="container">
+    <h1 id="fade" class="text-center" style="margin-top: 100px;">Stay Updated</h1>
+    <h5 class="text-center mt-4" style="font-weight: 400;">Keep up with our latest gaming insights, tips and reviews in the world of gaming <br> accessories and tech.</h5>
+  </div>
+
+  <div class="container mt-5">
+  <div class="row g-4">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+     <a href="#" class="text-decoration-none text-dark">
+       <div class="hover-box p-4" data-aos="fade-right" data-aos-duration="2000">
+        <img data-aos="fade-down" data-aos-duration="3000" src="stay-updated-img-1.webp" alt="" style="width: 100%;  border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+        <!-- peraline -->
+         <h5 class="mt-3">How to improve your Meta Quest Battery life?</h5>
+         <b style="color: navy;">On Jul 24,2025 | 34 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+      </div>
+     </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+    <a href="#" class="text-decoration-none text-dark">
+        <div class="hover-box p-4" data-aos="fade-up" data-aos-duration="2000">
+        <img data-aos="fade-down" data-aos-duration="3000" src="stay-updated-img-2.webp" alt="" style="width: 100%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+         <!-- peraline -->
+         <h5 class="mt-3">Keyboard Size Guide: Full-Size, TKL, 75%, 65%, and 60%...</h5>
+         <b style="color: navy;">On Jul 27,2025 | 32 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+
+      </div>
+    </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+     <a href="#" class="text-decoration-none text-dark">
+       <div class="hover-box p-4" data-aos="fade-left" data-aos-duration="2000">
+        <img data-aos="fade-up" data-aos-duration="3000" src="stay-updated-img-3.webp" alt="" style="width: 100%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+         <!-- peraline -->
+         <h5 class="mt-3">Syntech Shines at the 2025 XR Metaverse Fair Tokyo: A Recap...</h5>
+         <b style="color: navy;">On Jul 09,2025 | 20 Days ago</b> 
+         <br>
+         <b class="mt-2" style="color: navy;">Read More</b>
+        <!-- peraline -->
+      </div>
+     </a>
+    </div>
+  </div>
+   <!-- View-All-button -->
+      <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="1000">
+        <a href="#">
+          <button class="btn btn-primary text-center" style="border-radius: 8px;">View All</button>
+        </a>
+      </div>
+     <!-- View-All-button -->
+</div>
+  <!-- STAY-UPDATED -->
+</section>
+
+
+<section>
+  <div class="container text-center mt-5">
+    <div class="row d-flex mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="100%secure.png" alt="" style="width: 130px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="30-days.png" alt="" style="width: 170px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="guranteed-after-sale.png" alt="" style="width: 160px;">
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+        <img src="customer-support.png" alt="" style="width: 110px;">
+      </div>
+    </div>
+  </div>  
+</section>
+
+<footer>
+  <div id="footer-img-div">
+    <img src="footter-img.webp" alt="" id="footer-img">
+    <div id="footer-content">
+      <h6 id="footer-h6" class="text-center text-white">Subscribe now to get a gift with your first order!</h6>
+      <h4 id="footer-h4" class="text-center text-white">Get an Exclusive 10% Off Your First Purchas</h4>
+       <!-- inputs -->
+      <div class="inputs d-flex" id="footer-input-box">
+        <input type="email" name="" id="footer-email" placeholder="Email">
+        <button id="footer-subvscribe-btn">Subscribe</button>
+      </div>
+    <!-- inputs -->
+    <!-- Check-box-input -->
+     <div class="d-flex justify-content-center">
+      <input type="radio" name="" id="">
+      <p class="text-white mt-3 ml-3" id="radio-line">I agree to the Terms of Use and Privacy Policy</p>
+     </div>
+    <!-- Check-box-input -->
+    </div>
+   
+  </div>
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<!-- banner-js- -->
+ <script src="index.js"></script>
+<!-- banner-js-/ -->
+
+<!-- fade-aos-library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- fade-aos-library -->
+
+<!-- Bootstrap-5-js-cdn -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Bootstrap-5-js-cdn -->
+
+<!-- JAVASCRIPT -->
+
+
+</body>
+</html>
